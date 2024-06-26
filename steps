@@ -1,0 +1,9 @@
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh #linux
+curl  https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh #windows
+sudo bash nodesource_setup.sh #linux
+.\nodesource_setup.sh #windows
+sudo apt install nodejs -y #linux
+npm install nodejs -y #windows
+nodejs -v #linux
+node -v #windows
+
