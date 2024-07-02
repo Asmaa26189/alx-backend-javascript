@@ -1,5 +1,11 @@
 /**
- * students location
+ * students location.
+ * @param {{
+ *   id: Number,
+ *   firstName: String,
+ *   location: String
+ * }[]} students
+ * @param {String} city
  */
 export default function getStudentsByLocation(students, city) {
   if (students instanceof Array) {
