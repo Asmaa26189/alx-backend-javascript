@@ -1,5 +1,5 @@
 /**
- *  list of students
+ * list of students
  */
 export default function getListStudentIds(students) {
   if (students instanceof Array) {
