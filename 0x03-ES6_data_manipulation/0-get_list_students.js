@@ -1,7 +1,5 @@
 /**
- * list of students.
- * @author Asmaa Hesham https://github.com/Asmaa26189
- * @returns {{id: Number, firstName: String, location: String}[]}
+ * list of students
  */
 export default function getListStudents() {
   return [

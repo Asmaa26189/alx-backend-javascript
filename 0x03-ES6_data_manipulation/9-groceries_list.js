@@ -1,7 +1,5 @@
 /**
- * Retrieves a map of grocery names and their quantity.
- * @author Asmaa Hesham https://github.com/Asmaa26189
- * @returns {Map<string, Number>}
+ * grocery name
  */
 export default function groceriesList() {
   const values = [

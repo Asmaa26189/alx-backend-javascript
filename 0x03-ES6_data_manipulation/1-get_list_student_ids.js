@@ -1,12 +1,5 @@
 /**
- *  list of students.
- * @param {{
- *   id: Number,
- *   firstName: String,
- *   location: String
- * }[]} students - The list of students.
- * @author Asmaa Hesham https://github.com/Asmaa26189
- * @returns
+ *  list of students
  */
 export default function getListStudentIds(students) {
   if (students instanceof Array) {
