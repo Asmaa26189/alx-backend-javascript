@@ -1,15 +1,19 @@
 /**
- * endpoint
+ * A weakMap
  */
 export const weakMap = new WeakMap();
 
 /**
- * maximum number
+ * MAX_ENDPOINT_CALLS
  */
 const MAX_ENDPOINT_CALLS = 5;
 
 /**
- * number an API's endpoint.
+ * Track API's endpoint.
+ * @param {{
+ *   protocol: String,
+ *   name: String,
+ * }} endpoint
  */
 export function queryAPI(endpoint) {
   if (!weakMap.has(endpoint)) {

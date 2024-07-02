@@ -1,5 +1,15 @@
 /**
  * grades students in city
+ * @param {{
+ *   id: Number,
+ *   firstName: String,
+ *   location: String
+ * }[]} students
+ * @param {*} city
+ * @param {{
+ *   studentId: Number,
+ *   grade: Number,
+ * }[]} newGrades
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {
   const defaultGrade = { grade: 'N/A' };

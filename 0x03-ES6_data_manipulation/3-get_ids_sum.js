@@ -1,5 +1,10 @@
 /**
  * the sum of ids
+ * @param {{
+ *   id: Number,
+ *   firstName: String,
+ *   location: String
+ * }[]} students
  */
 export default function getStudentIdsSum(students) {
   if (students instanceof Array) {

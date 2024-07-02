@@ -1,5 +1,8 @@
 /**
- * buffer array value
+ * value
+ * @param {Number} length
+ * @param {Number} position
+ * @param {Number} value
  */
 export default function createInt8TypedArray(length, position, value) {
   if (position >= length) {

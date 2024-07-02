@@ -1,5 +1,7 @@
 /**
- * set of string
+ * sub string.
+ * @param {Set<String>} set
+ * @param {String} startString
  */
 export default function cleanSet(set, startString) {
   const parts = [];

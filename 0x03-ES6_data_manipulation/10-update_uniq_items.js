@@ -1,5 +1,6 @@
 /**
  * quantity unique grocery
+ * @param {Map<String, number>} map
  */
 export default function updateUniqueItems(map) {
   if (!(map instanceof Map)) {
